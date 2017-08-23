@@ -1,4 +1,4 @@
-.PHONY:  all clean pdf ac todolist
+.PHONY:  all clean pdf dev ac todolist
 
 LATEXMK := latexmk
 
