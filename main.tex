@@ -1,0 +1,42 @@
+\documentclass[a4paper,11pt]{book}
+%
+\input{./config/packages}
+\input{./config/macros}
+
+% SRS cover page
+\title{
+  \begin{flushright}
+  \Huge{SOFTWARE REQUIREMENTS\\ SPECIFICATION}\\
+  for\\
+  PROJECT NAME\\
+  ~\\
+  \LARGE{Version 1.0 DRAFT}\\
+  ~\\
+  A COMPANY, LOCATION, COUNTRY
+  \end{flushright}
+}
+
+% Author
+\author{}
+\date{}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+\tableofcontents
+
+\input{./chapter_revisionHistory/chapter_revisionHistory}
+
+\mainmatter
+
+\input{./chapter_preface/chapter_preface}
+\input{./chapter_introduction/chapter_introduction}
+\input{./chapter_overallDescription/chapter_overallDescription}
+\input{./chapter_externalInterfaceRequirements/chapter_externalInterfaceRequirements}
+\input{./chapter_systemFeatures/chapter_systemFeatures}
+\input{./chapter_otherNonFunctionalRequirements/chapter_otherNonFunctionalRequirements}
+\input{./chapter_otherRequirements/chapter_otherRequirements}
+
+\end{document}
